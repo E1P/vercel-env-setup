@@ -1,5 +1,6 @@
 <script>
-	$: environment = import.meta.env.VITE_TEST_VARIABLE;
+	// $: environment = import.meta.env.VITE_TEST_VARIABLE;
+	export let environment;
 </script>
 
 <h1>Vercel Env Test</h1>
